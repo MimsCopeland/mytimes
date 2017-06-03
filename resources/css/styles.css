@@ -1,16 +1,11 @@
 header {
-  display: inline-flex;
+  display: flex;
   font-family: Verdana, sans-serif;
   font-weight: bold;
   font-size: 14;
   color: MediumAquamarine;
-  width: 900px;
-  background-color: gray;
-}
-
-.logo {
-  display: inline-flex;
-  margin: 10px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo span {
@@ -22,20 +17,8 @@ header a {
   color: black;
 }
 
-nav {
-  display: inline-flex;
-  width: 900px;
-  justify-items: flex-end;
-}
-
-nav span {
-  justify-items: flex-end;
-}
 nav a {
   padding: 10px;
-  display: inline-flex;
-  justify-items: flex-end;
-  align-items: baseline;
 }
 
 body {
