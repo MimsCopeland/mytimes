@@ -8,6 +8,11 @@ header {
   align-items: center;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+}
+
 .logo span {
   margin: 10px;
 }
@@ -19,6 +24,7 @@ header a {
 
 nav a {
   padding: 10px;
+  text-decoration: underline;
 }
 
 body {
