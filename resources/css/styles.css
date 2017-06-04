@@ -59,11 +59,31 @@ nav a {
 .pic_phish {
   background-image: url(../images/img-story-main.png);
   height: 280px;
+  display: flex;
 }
 
-.pic_phish p {
+.pic_cats {
+  background-image: url(../images/img-story-1.png);
+  height: 300px;
+  display: flex;
+
+}
+.pic_earth {
+  background-image: url(../images/img-story-2.png);
+  height: 300px;
+  text-align: center;
+  display: flex;
+
+}
+.pic_cats p, .pic_earth p {
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
+  color: white;
+}
+.pic_phish p {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
   color: white;
 }
