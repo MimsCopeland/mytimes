@@ -27,5 +27,43 @@ nav a {
   text-decoration: underline;
 }
 
-body {
+.main {
+  display: flex;
+}
+
+.col_1, .col_2, .col_3 {
+  border: 3px solid black;
+  margin: 10px;
+}
+.col_1 {
+  width: 630px;
+}
+.col_2 {
+  width: 300px;
+}
+
+.col_3 {
+  width: 240px;
+}
+
+.story {
+  border: 1px solid black;
+}
+
+.story p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.pic_phish {
+  background-image: url(../images/img-story-main.png);
+  height: 280px;
+}
+
+.pic_phish p {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
