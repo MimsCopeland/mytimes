@@ -114,8 +114,13 @@ nav a {
 
 .footer {
   display: flex;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
   background-color: MediumAquamarine;
+  height: 250px;
+  flex-direction: column;
+  font-family: sans-serif;
+  font-size: 16px;
 }
 
 .footer .mytimes {
@@ -123,9 +128,19 @@ nav a {
   font-size: 16px;
   font-weight: bold;
   color: white;
+  padding-right: 10px;
 }
 
 .footer nav {
   border-left: 1px solid white;
+}
 
+.footer a {
+  text-decoration: none;
+  color: black;
+  text-decoration: underline;
+}
+
+.foot_line1 {
+  display: flex;
 }
